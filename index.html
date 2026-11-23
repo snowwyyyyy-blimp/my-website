@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">My<span>Site</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#server">Server</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h1>Welcome to My Website</h1>
+            <p>A simple, clean site hosted with GitHub Pages.</p>
+            <a href="#server" class="btn">View Server Status</a>
+        </div>
+    </section>
+
+    <section id="about" class="about container">
+        <h2>About This Site</h2>
+        <p>
+            This website was built with plain HTML and CSS and is deployed using
+            <strong>GitHub Pages</strong>. Feel free to fork it, customize it,
+            and make it your own!
+        </p>
+    </section>
+
+    <section id="server" class="server container">
+        <h2>Game Server</h2>
+        <p>Check out the L4D2 server status banner below:</p>
+
+        <div class="badge-wrapper">
+            <a href="https://mantascope.com/l4d2/server/gaming-32-players-chaos-2492566?ref=badge">
+                <img src="https://mantascope.com/server-img?id=2492566&size=banner&style=console&color=auto"
+                     srcset="https://mantascope.com/server-img?id=2492566&size=banner&style=console&color=auto 1x,
+                             https://mantascope.com/server-img?id=2492566&size=banner&style=console&color=auto&dpr=2 2x,
+                             https://mantascope.com/server-img?id=2492566&size=banner&style=console&color=auto&dpr=3 3x"
+                     width="560" height="95" alt="gaming | 32 PLAYERS CHAOS" />
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <h2>Get in Touch</h2>
+        <p>Have questions or suggestions? Drop me a message.</p>
+        <a href="mailto:hello@example.com" class="btn">Email Me</a>
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2026 My Website. Built with <3 and GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
